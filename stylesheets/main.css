@@ -1067,6 +1067,11 @@ fieldset h1 {
     background-repeat: no-repeat;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .parallax{    
     /*css for stellar BG parallax*/
     background-attachment: fixed;
