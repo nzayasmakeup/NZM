@@ -434,29 +434,3 @@ there.
     }
 }
 
-/*iPhone 6Plus Portrait Mode*/
-@media screen and (max-width: 414px) {
-    .container {
-        width: 374px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-/*iPhone 6 Portrait Mode*/
-@media screen and (max-width: 375px) {
-    .container {
-        width: 335px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-/*iPhone 5S, 5, 4S & 4 Portrait Mode and Very Small Mobile Phones*/
-@media screen and (max-width: 320px) {
-    .container {
-        width: 300px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
