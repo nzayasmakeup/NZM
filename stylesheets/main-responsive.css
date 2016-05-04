@@ -286,34 +286,6 @@ there.
 
 }
 
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
 /*iPhone 6Plus Landscape Mode*/
 @media screen and (max-width: 736px) {
     .container {
@@ -330,6 +302,45 @@ there.
         width: 567px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+    .container {
+        width: 400px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .inner-wrap{
+        padding: 60px 30px;
+    }
+    .works-masonry-container .works-item-one-third,
+    .works-masonry-container .works-item-two-third,
+    .works-masonry-container .works-item-one-half,
+    .works-masonry-container .works-item-one-fourth,
+    .works-masonry-container .works-item-full-width{
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+    }
+    .works-masonry-container .works-item-one-third-spaced,
+    .works-masonry-container .works-item-one-half-spaced,
+    .works-masonry-container .works-item-two-third-spaced,
+    .works-masonry-container .works-item-one-fourth-spaced{
+          margin: 1% !important;
+          padding: 0 !important;
+          width: 98% !important;
     }
 }
 
