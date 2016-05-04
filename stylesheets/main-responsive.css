@@ -286,24 +286,34 @@ there.
 
 }
 
-/*iPhone 6Plus Landscape Mode*/
-@media screen and (max-width: 736px) {
-    .container {
-        width: 636px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
 }
 
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
-/*iPhone 6 Landscape Mode*/
-@media screen and (max-width: 667px) {
-    .container {
-        width: 567px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
 }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
 
 
 /*Google Nexus and Other Large Smart Phones v1*/
